@@ -199,7 +199,7 @@ section {
 
 .banner .carousel {
   display: flex;
-  width: 60%; /* Define the width you want */
+  width: 100%; /* Define the width you want */
   height: auto; /* Define the height you want */
   /*overflow: hidden; /* Hide any content that overflows the container */
 }
@@ -222,7 +222,7 @@ section {
 }
 
 .products .slide h3 {
-  padding: 1rem 0;
+  padding: 7rem 0 1rem 0;
   font-size: 2.5rem;
   color: #444;
   text-transform: capitalize;
@@ -235,7 +235,7 @@ section {
 
 .products .swiper-slide-active img {
   -webkit-transform: scale(1);
-  transform: scale(1);
+  transform: scale(2);
 }
 
 .products .swiper-slide-active h3,
