@@ -1,6 +1,19 @@
 let menu = document.querySelector('#menu-btn');
 let header = document.querySelector('.header');
 
+$(document).ready(function () {
+    $('.carousel').slick({
+        autoplay: true, // Auto-play slides
+        autoplaySpeed: 3000, // Auto-play speed in milliseconds
+        dots: true, // Display navigation dots
+        arrows: true, // Display navigation arrows
+        infinite: true, // Loop through slides
+        speed: 500, // Transition speed in milliseconds
+        slidesToShow: 1, // Number of slides to show at a time
+        slidesToScroll: 1 // Number of slides to scroll at a time
+    });
+});
+
 menu.onclick = () => {
     menu.classList.toggle('fa-times');
     header.classList.toggle('active');
@@ -74,4 +87,20 @@ var swiper = new Swiper(".reviews-slider", {
             slidesPerView: 3,
         },
     },
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const colors = ["azul", "blanco", "gris", "marron", "negroblanco", "negronegro", "rojo"];
+
+    colors.forEach(color => {
+        const thumbButtons = document.querySelectorAll('.thumb-button[data-color="' + color + '"]');
+        const mainImage = document.getElementById('mainImage-' + color);
+        thumbButtons.forEach(thumbButton => {
+            thumbButton.addEventListener('click', function () {
+                const target = thumbButton.getAttribute('data-target');
+                mainImage.src = target;
+            });
+        });
+
+    });
 });

@@ -10,9 +10,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!--CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css">
+    
     <!--Favicon-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!--Carousel-->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
 </head>
 
 <body>
@@ -31,20 +38,22 @@
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
         </div>
-        <p class="credit">&copy; Copyright @ 2023 by NexTep</p>
+        <p class="credit">&copy; Copyright @ 2024 by NexTep</p>
     </header>
     <!-- header section Ends -->
     <!--Banner Section starts-->
     <section class="banner" id="inicio">
         <div class="content">
-            <span>Estilo y Confort</span>
+            <span>Implusando el próximo gran paso</span>
             <h3>NeXtep</h3>
-            <p>Te ofrecemos un calzado con un toque moderno asi como el confort.</p>
+            <p>Te ofrecemos un calzado con un toque moderno asi como el comfort.</p>
             <a href="#" class="btn">Ir a tienda</a>
         </div>
-        <div class="image">
-            <img src="images/Showcase/Blanco/Blanco1.webp" alt="" srcset="">
-        </div>
+            <div class="carousel">
+                <img src="images/banners/banner1_1.png" alt="" srcset="">
+                <img src="images/banners/banner1_3.png" alt="" srcset="">
+                <img src="images/banners/banner2_1.png" alt="" srcset="">
+            </div>
     </section>
     <!--Banner Section Ends-->
     <!--Productos Section Starts-->
@@ -108,85 +117,247 @@
         <div class="product-preview" data-target="azul">
             <div class="fas fa-times"></div>
             <div class="image">
-                <img src="images/Showcase/Azul/Azul2.webp" alt="">
+                <img src="images/Showcase/Azul/Azul2.webp" alt="" id="mainImage-azul">
             </div>
             <div class="content">
                 <h3></h3>
                 <p></p>
                 <div class="price"></div>
                 <a href="" class="btn">Ir a Tienda</a>
+            </div>
+            <div class="thumbs">
+                <button class="thumb-button" data-target="images/Showcase/Azul/Azul1.webp" data-color="azul"> <!-- Changed to button -->
+                    <img src="images/thumbs/Azulthumbs/Azul1.webp" alt="" data-target="azul">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Azul/Azul2.webp" data-color="azul"> <!-- Changed to button -->
+                    <img src="images/thumbs/Azulthumbs/Azul2.webp" alt="" data-target="azul">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Azul/Azul3.webp" data-color="azul"> <!-- Changed to button -->
+                    <img src="images/thumbs/Azulthumbs/Azul3.webp" alt="" data-target="azul">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Azul/Azul4.webp" data-color="azul"> <!-- Changed to button -->
+                    <img src="images/thumbs/Azulthumbs/Azul4.webp" alt="" data-target="azul">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Azul/Azul5.webp" data-color="azul"> <!-- Changed to button -->
+                    <img src="images/thumbs/Azulthumbs/Azul5.webp" alt="" data-target="azul">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Azul/Azul6.webp" data-color="azul"> <!-- Changed to button -->
+                    <img src="images/thumbs/Azulthumbs/Azul6.webp" alt="" data-target="azul">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Azul/Azul7.webp" data-color="azul"> <!-- Changed to button -->
+                    <img src="images/thumbs/Azulthumbs/Azul7.webp" alt="" data-target="azul">
+                </button>
+                <!-- Add more tiny images as needed -->
             </div>
         </div>
         <div class="product-preview" data-target="blanco">
             <div class="fas fa-times"></div>
             <div class="image">
-                <img src="images/Showcase/Blanco/Blanco2.webp" alt="">
+                <img src="images/Showcase/Blanco/Blanco2.webp" alt="" id="mainImage-blanco">
             </div>
             <div class="content">
                 <h3></h3>
                 <p></p>
                 <div class="price"></div>
                 <a href="" class="btn">Ir a Tienda</a>
+            </div>
+            <div class="thumbs">
+                <button class="thumb-button" data-target="images/Showcase/Blanco/Blanco1.webp" data-color="blanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Blancothumbs/Blanco1.webp" alt="" data-target="blanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Blanco/Blanco2.webp" data-color="blanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Blancothumbs/Blanco2.webp" alt="" data-target="blanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Blanco/Blanco3.webp" data-color="blanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Blancothumbs/Blanco3.webp" alt="" data-target="blanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Blanco/Blanco4.webp" data-color="blanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Blancothumbs/Blanco4.webp" alt="" data-target="blanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Blanco/Blanco5.webp" data-color="blanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Blancothumbs/Blanco5.webp" alt="" data-target="blanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Blanco/Blanco6.webp" data-color="blanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Blancothumbs/Blanco6.webp" alt="" data-target="blanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Blanco/Blanco7.webp" data-color="blanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Blancothumbs/Blanco7.webp" alt="" data-target="blanco">
+                </button>
             </div>
         </div>
         <div class="product-preview" data-target="gris">
             <div class="fas fa-times"></div>
             <div class="image">
-                <img src="images/Showcase/Gris/Gris2.webp" alt="">
+                <img src="images/Showcase/Gris/Gris2.webp" alt="" id="mainImage-gris">
             </div>
             <div class="content">
                 <h3></h3>
                 <p></p>
                 <div class="price"></div>
                 <a href="" class="btn">Ir a Tienda</a>
+            </div>
+            <div class="thumbs">
+                <button class="thumb-button" data-target="images/Showcase/Gris/Gris1.webp" data-color="gris"> <!-- Changed to button -->
+                    <img src="images/thumbs/Gristhumbs/Gris1.webp" alt="" data-target="gris">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Gris/Gris2.webp" data-color="gris"> <!-- Changed to button -->
+                    <img src="images/thumbs/Gristhumbs/Gris2.webp" alt="" data-target="gris">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Gris/Gris3.webp" data-color="gris"> <!-- Changed to button -->
+                    <img src="images/thumbs/Gristhumbs/Gris3.webp" alt="" data-target="gris">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Gris/Gris4.webp" data-color="gris"> <!-- Changed to button -->
+                    <img src="images/thumbs/Gristhumbs/Gris4.webp" alt="" data-target="gris" >
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Gris/Gris5.webp" data-color="gris"> <!-- Changed to button -->
+                    <img src="images/thumbs/Gristhumbs/Gris5.webp" alt="" data-target="gris">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Gris/Gris6.webp" data-color="gris"> <!-- Changed to button -->
+                    <img src="images/thumbs/Gristhumbs/Gris6.webp" alt="" data-target="gris">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Gris/Gris7.webp" data-color="gris"> <!-- Changed to button -->
+                    <img src="images/thumbs/Gristhumbs/Gris7.webp" alt="" data-target="gris">
+                </button>
             </div>
         </div>
         <div class="product-preview" data-target="marron">
             <div class="fas fa-times"></div>
             <div class="image">
-                <img src="images/Showcase/Marron/Marron2.webp" alt="">
+                <img src="images/Showcase/Marron/Marron2.webp" alt="" id="mainImage-marron">
             </div>
             <div class="content">
                 <h3></h3>
                 <p></p>
                 <div class="price"></div>
                 <a href="" class="btn">Ir a Tienda</a>
+            </div>
+            <div class="thumbs">
+                <button class="thumb-button" data-target="images/Showcase/Marron/Marron1.webp" data-color="marron"> <!-- Changed to button -->
+                    <img src="images/thumbs/Marronthumbs/Marron1.webp" alt="" data-target="marron">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Marron/Marron2.webp" data-color="marron"> <!-- Changed to button -->
+                    <img src="images/thumbs/Marronthumbs/Marron2.webp" alt="" data-target="marron">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Marron/Marron3.webp" data-color="marron"> <!-- Changed to button -->
+                    <img src="images/thumbs/Marronthumbs/Marron3.webp" alt="" data-target="marron">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Marron/Marron4.webp" data-color="marron"> <!-- Changed to button -->
+                    <img src="images/thumbs/Marronthumbs/Marron4.webp" alt="" data-target="marron">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Marron/Marron5.webp" data-color="marron"> <!-- Changed to button -->
+                    <img src="images/thumbs/Marronthumbs/Marron5.webp" alt="" data-target="marron">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Marron/Marron6.webp" data-color="marron"> <!-- Changed to button -->
+                    <img src="images/thumbs/Marronthumbs/Marron6.webp" alt="" data-target="marron">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Marron/Marron7.webp" data-color="marron"> <!-- Changed to button -->
+                    <img src="images/thumbs/Marronthumbs/Marron7.webp" alt="" data-target="marron">
+                </button>
             </div>
         </div>
         <div class="product-preview" data-target="negroblanco">
             <div class="fas fa-times"></div>
             <div class="image">
-                <img src="images/Showcase/Negroblanco/Negroblanco2.webp" alt="">
+                <img src="images/Showcase/Negroblanco/Negroblanco2.webp" alt="" id="mainImage-negroblanco">
             </div>
             <div class="content">
                 <h3></h3>
                 <p></p>
                 <div class="price"></div>
                 <a href="" class="btn">Ir a Tienda</a>
+            </div>
+            <div class="thumbs">
+                <button class="thumb-button" data-target="images/Showcase/Negroblanco/Negroblanco1.webp" data-color="negroblanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negroblancothumbs/Negroblanco1.webp" alt="" data-target="negroblanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negroblanco/Negroblanco2.webp" data-color="negroblanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negroblancothumbs/Negroblanco2.webp" alt="" data-target="negroblanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negroblanco/Negroblanco3.webp" data-color="negroblanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negroblancothumbs/Negroblanco3.webp" alt="" data-target="negroblanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negroblanco/Negroblanco4.webp" data-color="negroblanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negroblancothumbs/Negroblanco4.webp" alt="" data-target="negroblanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negroblanco/Negroblanco5.webp" data-color="negroblanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negroblancothumbs/Negroblanco5.webp" alt="" data-target="negroblanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negroblanco/Negroblanco6.webp" data-color="negroblanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negroblancothumbs/Negroblanco6.webp" alt="" data-target="negroblanco">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negroblanco/Negroblanco7.webp" data-color="negroblanco"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negroblancothumbs/Negroblanco7.webp" alt="" data-target="negroblanco">
+                </button>
             </div>
         </div>
         <div class="product-preview" data-target="negronegro">
             <div class="fas fa-times"></div>
             <div class="image">
-                <img src="images/Showcase/Negronegro/Negronegro2.webp" alt="">
+                <img src="images/Showcase/Negronegro/Negronegro2.webp" alt="" id="mainImage-negronegro">
             </div>
             <div class="content">
                 <h3></h3>
                 <p></p>
                 <div class="price"></div>
                 <a href="" class="btn">Ir a Tienda</a>
+            </div>
+            <div class="thumbs">
+                <button class="thumb-button" data-target="images/Showcase/Negronegro/Negronegro1.webp" data-color="negronegro"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negronegrothumbs/Negronegro1.webp" alt="" data-target="negronegro">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negronegro/Negronegro2.webp" data-color="negronegro"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negronegrothumbs/Negronegro2.webp" alt="" data-target="negronegro">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negronegro/Negronegro3.webp" data-color="negronegro"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negronegrothumbs/Negronegro3.webp" alt="" data-target="negronegro">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negronegro/Negronegro4.webp" data-color="negronegro"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negronegrothumbs/Negronegro4.webp" alt="" data-target="negronegro">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negronegro/Negronegro5.webp" data-color="negronegro"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negronegrothumbs/Negronegro5.webp" alt="" data-target="negronegro">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negronegro/Negronegro6.webp" data-color="negronegro"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negronegrothumbs/Negronegro6.webp" alt="" data-target="negronegro">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Negronegro/Negronegro7.webp" data-color="negronegro"> <!-- Changed to button -->
+                    <img src="images/thumbs/Negronegrothumbs/Negronegro7.webp" alt="" data-target="negronegro">
+                </button>
             </div>
         </div>
         <div class="product-preview" data-target="rojo">
             <div class="fas fa-times"></div>
             <div class="image">
-                <img src="images/Showcase/Rojo/Rojo2.webp" alt="">
+                <img src="images/Showcase/Rojo/Rojo2.webp" alt="" id="mainImage-rojo">
             </div>
             <div class="content">
                 <h3></h3>
                 <p></p>
                 <div class="price"></div>
                 <a href="" class="btn">Ir a Tienda</a>
+            </div>
+            <div class="thumbs">
+                <button class="thumb-button" data-target="images/Showcase/Rojo/Rojo1.webp" data-color="rojo"> <!-- Changed to button -->
+                    <img src="images/thumbs/Rojothumbs/Rojo1.webp" alt="" data-target="rojo">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Rojo/Rojo2.webp" data-color="rojo"> <!-- Changed to button -->
+                    <img src="images/thumbs/Rojothumbs/Rojo2.webp" alt="" data-target="rojo">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Rojo/Rojo3.webp" data-color="rojo"> <!-- Changed to button -->
+                    <img src="images/thumbs/Rojothumbs/Rojo3.webp" alt="" data-target="rojo">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Rojo/Rojo4.webp" data-color="rojo"> <!-- Changed to button -->
+                    <img src="images/thumbs/Rojothumbs/Rojo4.webp" alt="" data-target="rojo">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Rojo/Rojo5.webp" data-color="rojo"> <!-- Changed to button -->
+                    <img src="images/thumbs/Rojothumbs/Rojo5.webp" alt="" data-target="rojo">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Rojo/Rojo6.webp" data-color="rojo"> <!-- Changed to button -->
+                    <img src="images/thumbs/Rojothumbs/Rojo6.webp" alt="" data-target="rojo">
+                </button>
+                <button class="thumb-button" data-target="images/Showcase/Rojo/Rojo7.webp" data-color="rojo"> <!-- Changed to button -->
+                    <img src="images/thumbs/Rojothumbs/Rojo7.webp" alt="" data-target="rojo">
+                </button>
             </div>
         </div>
 
@@ -207,7 +378,7 @@
 
     <!--Nosotros Section Starts-->
     <section id="nosotros">
-        
+
     </section>
     <!--Nosotros Section Ends-->
 
@@ -249,8 +420,12 @@
 
     <!--custom js file -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
 </body>
 
 </html>

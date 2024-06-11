@@ -196,14 +196,18 @@ section {
   padding: 1rem 0;
 }
 
-.banner .image {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 41rem;
-  flex: 1 1 41rem;
+
+.banner .carousel {
+  display: flex;
+  width: 60%; /* Define the width you want */
+  height: auto; /* Define the height you want */
+  /*overflow: hidden; /* Hide any content that overflows the container */
 }
 
-.banner .image img {
-  width: 100%;
+.banner .carousel img {
+  max-width: 100%; /* Ensure images don't exceed their container */
+  height: auto;
+  margin: 0; /* Remove any default margin for images */
 }
 
 .products .slide {
@@ -328,6 +332,10 @@ section {
   color: #444;
   text-transform: capitalize;
   padding: 1rem 0;
+}
+
+.thumbs {
+  margin-top: auto; /* This pushes thumbs to the bottom if there's space */
 }
 
 .service {
