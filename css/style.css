@@ -72,6 +72,34 @@ section {
   background: #002fa7;
 }
 
+.btnwht {
+  display: inline-block;
+  background-color: #25D366; /* WhatsApp green color */
+  color: #fff;
+  border-radius: 5rem;
+  padding: 1.2rem 3rem;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.btnwht:hover {
+  background-color: #128C7E; /* Darker shade of WhatsApp green */
+}
+
+.btnwhat i {
+  position: absolute;
+  left: 10px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.svg-container {
+  width: 10%; /* Adjust as needed */
+  height: auto;
+}
 .header {
   position: fixed;
   top: 0;
