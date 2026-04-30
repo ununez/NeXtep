@@ -20,13 +20,15 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <!-- header section starts -->
-    <div class="fas fa-bars" id="menu-btn"></div>
     <header class="header">
-        <a href="#" class="logo">NeXtep</a>
+        <a href="#inicio" class="logo">NeXtep</a>
         <nav class="navbar">
             <a href="#inicio">Inicio</a>
             <a href="#productos">Productos</a>
@@ -34,11 +36,10 @@
             <a href="#contacto">Contacto</a>
         </nav>
         <div class="share">
-            <a href="#" class="fab fa-facebook"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
+            <a href="https://www.facebook.com/SomosNeXtep" class="fab fa-facebook-f" target="_blank"></a>
+            <a href="#" class="fab fa-instagram" target="_blank"></a>
         </div>
-        <p class="credit">&copy; Copyright @ 2024 by NexTep</p>
+        <div class="fas fa-bars" id="menu-btn"></div>
     </header>
     <!-- header section Ends -->
     <!--Banner Section starts-->
@@ -50,13 +51,12 @@
             <!-- <a href="#" class="btn">Ir a tienda</a> -->
             <!-- <a href="https://wa.me/+5214771729222" target="_blank" ><svg class="what" src="/images/logo/Digital_Inline_Green.svg"/></a> -->
             <a href="https://wa.me/+5214771729222" target="_blank" class="btnwht"><i class="fab fa-whatsapp"></i>WhatsApp</a>
-
         </div>
-            <div class="carousel">
-                <img src="images/banners/banner1_1.png" alt="" srcset="">
-                <img src="images/banners/banner1_3.png" alt="" srcset="">
-                <img src="images/banners/banner2_1.png" alt="" srcset="">
-            </div>
+        <div class="carousel">
+            <img src="images/banners/banner1_1.webp" alt="">
+            <img src="images/banners/banner1_3.webp" alt="">
+            <img src="images/banners/banner2_1.webp" alt="">
+        </div>
     </section>
     <!--Banner Section Ends-->
     <!--Productos Section Starts-->
@@ -68,45 +68,38 @@
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide slide">
-                    <img src="images/Showcase/Azul/Azul1.webp" alt="">
+                    <img src="images/Showcase/Azul/Azul1.webp" alt="" data-product="azul">
                     <h3>Blue</h3>
-                    <div class="btn" data-product="azul">Detalles</div>
                 </div>
 
                 <div class="swiper-slide slide">
-                    <img src="images/Showcase/Blanco/Blanco1.webp" alt="">
+                    <img src="images/Showcase/Blanco/Blanco1.webp" alt="" data-product="blanco">
                     <h3>White</h3>
-                    <div class="btn" data-product="blanco">Detalles</div>
                 </div>
 
                 <div class="swiper-slide slide">
-                    <img src="images/Showcase/Gris/Gris1.webp" alt="">
+                    <img src="images/Showcase/Gris/Gris1.webp" alt="" data-product="gris">
                     <h3>Gray</h3>
-                    <div class="btn" data-product="gris">Detalles</div>
                 </div>
 
                 <div class="swiper-slide slide">
-                    <img src="images/Showcase/Marron/Marron1.webp" alt="">
+                    <img src="images/Showcase/Marron/Marron1.webp" alt="" data-product="marron">
                     <h3>Whisky</h3>
-                    <div class="btn" data-product="marron">Detalles</div>
                 </div>
 
                 <div class="swiper-slide slide">
-                    <img src="images/Showcase/Negroblanco/Negroblanco1.webp" alt="">
+                    <img src="images/Showcase/Negroblanco/Negroblanco1.webp" alt="" data-product="negroblanco">
                     <h3>Black & White</h3>
-                    <div class="btn" data-product="negroblanco">Detalles</div>
                 </div>
 
                 <div class="swiper-slide slide">
-                    <img src="images/Showcase/Negronegro/Negronegro1.webp" alt="">
+                    <img src="images/Showcase/Negronegro/Negronegro1.webp" alt="" data-product="negronegro">
                     <h3>Black</h3>
-                    <div class="btn" data-product="negronegro">Detalles</div>
                 </div>
 
                 <div class="swiper-slide slide">
-                    <img src="images/Showcase/Rojo/Rojo1.webp" alt="">
+                    <img src="images/Showcase/Rojo/Rojo1.webp" alt="" data-product="rojo">
                     <h3>Red</h3>
-                    <div class="btn" data-product="rojo">Detalles</div>
                 </div>
 
             </div>
@@ -438,7 +431,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
     <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/style.css">
 
 </body>
 
